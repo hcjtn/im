@@ -1,0 +1,964 @@
+2023-12-12 13:40:33 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 13:40:33 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 11864 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 13:40:33 -The following 1 profile is active: "dev"
+2023-12-12 13:40:34 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 13:40:34 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 13:40:34 -Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-12-12 13:40:34 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 13:40:34 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 13:40:34 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 13:40:34 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 13:40:34 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 13:40:35 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 13:40:35 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 13:40:35 -Starting service [Tomcat]
+2023-12-12 13:40:35 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 13:40:35 -Initializing Spring embedded WebApplicationContext
+2023-12-12 13:40:35 -Root WebApplicationContext: initialization completed in 2562 ms
+2023-12-12 13:40:37 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 13:40:37 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 13:40:37 -Started ServiceApplication in 5.043 seconds (JVM running for 7.423)
+2023-12-12 13:43:20 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 13:43:20 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 15044 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 13:43:20 -The following 1 profile is active: "dev"
+2023-12-12 13:43:20 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 13:43:20 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 13:43:20 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-12 13:43:21 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 13:43:21 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 13:43:21 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 13:43:21 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 13:43:21 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 13:43:22 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 13:43:22 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 13:43:22 -Starting service [Tomcat]
+2023-12-12 13:43:22 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 13:43:22 -Initializing Spring embedded WebApplicationContext
+2023-12-12 13:43:22 -Root WebApplicationContext: initialization completed in 2247 ms
+2023-12-12 13:43:23 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 13:43:24 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 13:43:24 -Started ServiceApplication in 4.356 seconds (JVM running for 5.365)
+2023-12-12 13:44:18 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 13:44:18 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 13:44:18 -Completed initialization in 1 ms
+2023-12-12 13:44:18 -HikariPool-1 - Starting...
+2023-12-12 13:44:18 -HikariPool-1 - Start completed.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@242d66de (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3004050f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17d38274 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ff55fd7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@556279a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@455e3276 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e15c88b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b7b2d79 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d12be87 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:47:02 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59ebecd1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:52:13 -HikariPool-1 - Shutdown initiated...
+2023-12-12 13:52:13 -HikariPool-1 - Shutdown completed.
+2023-12-12 13:52:22 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 13:52:22 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 19560 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 13:52:22 -The following 1 profile is active: "dev"
+2023-12-12 13:52:23 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 13:52:23 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 13:52:23 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-12-12 13:52:23 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 13:52:23 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 13:52:23 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 13:52:23 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 13:52:23 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 13:52:24 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 13:52:24 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 13:52:24 -Starting service [Tomcat]
+2023-12-12 13:52:24 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 13:52:24 -Initializing Spring embedded WebApplicationContext
+2023-12-12 13:52:24 -Root WebApplicationContext: initialization completed in 2224 ms
+2023-12-12 13:52:26 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 13:52:26 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 13:52:26 -Started ServiceApplication in 4.261 seconds (JVM running for 5.503)
+2023-12-12 13:52:36 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 13:52:36 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 13:52:36 -Completed initialization in 1 ms
+2023-12-12 13:52:36 -HikariPool-1 - Starting...
+2023-12-12 13:52:36 -HikariPool-1 - Start completed.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@dbe422a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7aba81d6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1eaf071c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@336c6b0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a850a04 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@441f82b3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@226efacb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1758ab70 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55cf46b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 13:54:54 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d7d4ca5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:01:50 -HikariPool-1 - Shutdown initiated...
+2023-12-12 14:01:50 -HikariPool-1 - Shutdown completed.
+2023-12-12 14:02:01 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 14:02:01 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 18748 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 14:02:01 -The following 1 profile is active: "dev"
+2023-12-12 14:02:01 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 14:02:01 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 14:02:01 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-12-12 14:02:02 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 14:02:02 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 14:02:02 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 14:02:02 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 14:02:02 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 14:02:03 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 14:02:03 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:02:03 -Starting service [Tomcat]
+2023-12-12 14:02:03 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 14:02:03 -Initializing Spring embedded WebApplicationContext
+2023-12-12 14:02:03 -Root WebApplicationContext: initialization completed in 2163 ms
+2023-12-12 14:02:04 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:02:04 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 14:02:04 -Started ServiceApplication in 4.362 seconds (JVM running for 5.633)
+2023-12-12 14:02:09 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 14:02:09 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 14:02:09 -Completed initialization in 1 ms
+2023-12-12 14:02:09 -HikariPool-1 - Starting...
+2023-12-12 14:02:09 -HikariPool-1 - Start completed.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a1e7ee7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@388cfc49 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7eb1c8fe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21d15bf6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1c7cf338 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@434d2a4a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@334bece5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18ee1f91 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63f0ca87 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:04:37 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49c5b3c9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 14:05:07 -HikariPool-1 - Shutdown initiated...
+2023-12-12 14:05:07 -HikariPool-1 - Shutdown completed.
+2023-12-12 14:35:54 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 14:35:54 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24164 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 14:35:54 -The following 1 profile is active: "dev"
+2023-12-12 14:35:54 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 14:35:54 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 14:35:54 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-12-12 14:35:55 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 14:35:55 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 14:35:55 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 14:35:55 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 14:35:55 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 14:35:56 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 14:35:56 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:35:56 -Starting service [Tomcat]
+2023-12-12 14:35:56 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 14:35:56 -Initializing Spring embedded WebApplicationContext
+2023-12-12 14:35:56 -Root WebApplicationContext: initialization completed in 2198 ms
+2023-12-12 14:35:57 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:35:57 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 14:35:57 -Started ServiceApplication in 4.243 seconds (JVM running for 5.478)
+2023-12-12 14:36:33 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 14:36:33 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 14:36:33 -Completed initialization in 0 ms
+2023-12-12 14:36:34 -HikariPool-1 - Starting...
+2023-12-12 14:36:34 -HikariPool-1 - Start completed.
+2023-12-12 14:41:26 -HikariPool-1 - Shutdown initiated...
+2023-12-12 14:41:26 -HikariPool-1 - Shutdown completed.
+2023-12-12 14:44:35 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 14:44:35 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 21228 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 14:44:35 -The following 1 profile is active: "dev"
+2023-12-12 14:44:36 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 14:44:36 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 14:44:36 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-12-12 14:44:36 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 14:44:36 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 14:44:36 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 14:44:36 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 14:44:36 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 14:44:37 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 14:44:37 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:44:37 -Starting service [Tomcat]
+2023-12-12 14:44:37 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 14:44:38 -Initializing Spring embedded WebApplicationContext
+2023-12-12 14:44:38 -Root WebApplicationContext: initialization completed in 2432 ms
+2023-12-12 14:44:39 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:44:39 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 14:44:39 -Started ServiceApplication in 4.749 seconds (JVM running for 6.159)
+2023-12-12 14:46:15 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 14:46:15 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 14:46:15 -Completed initialization in 1 ms
+2023-12-12 14:50:23 -HikariPool-1 - Starting...
+2023-12-12 14:50:23 -HikariPool-1 - Start completed.
+2023-12-12 14:50:51 -HikariPool-1 - Shutdown initiated...
+2023-12-12 14:50:51 -HikariPool-1 - Shutdown completed.
+2023-12-12 14:50:59 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 14:50:59 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 26008 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 14:50:59 -The following 1 profile is active: "dev"
+2023-12-12 14:51:00 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 14:51:00 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 14:51:00 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-12-12 14:51:00 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 14:51:00 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 14:51:00 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 14:51:00 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 14:51:00 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 14:51:01 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 14:51:01 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:51:01 -Starting service [Tomcat]
+2023-12-12 14:51:01 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 14:51:01 -Initializing Spring embedded WebApplicationContext
+2023-12-12 14:51:01 -Root WebApplicationContext: initialization completed in 2382 ms
+2023-12-12 14:51:03 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:51:03 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 14:51:03 -Started ServiceApplication in 4.623 seconds (JVM running for 5.821)
+2023-12-12 14:51:10 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 14:51:10 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 14:51:10 -Completed initialization in 0 ms
+2023-12-12 14:51:10 -HikariPool-1 - Starting...
+2023-12-12 14:51:10 -HikariPool-1 - Start completed.
+2023-12-12 14:56:14 -HikariPool-1 - Shutdown initiated...
+2023-12-12 14:56:14 -HikariPool-1 - Shutdown completed.
+2023-12-12 14:56:21 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 14:56:21 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24628 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 14:56:21 -The following 1 profile is active: "dev"
+2023-12-12 14:56:22 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 14:56:22 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 14:56:22 -Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-12-12 14:56:22 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 14:56:22 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 14:56:22 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 14:56:22 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 14:56:22 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 14:56:23 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 14:56:23 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:56:23 -Starting service [Tomcat]
+2023-12-12 14:56:23 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 14:56:23 -Initializing Spring embedded WebApplicationContext
+2023-12-12 14:56:23 -Root WebApplicationContext: initialization completed in 2406 ms
+2023-12-12 14:56:25 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 14:56:25 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 14:56:25 -Started ServiceApplication in 4.692 seconds (JVM running for 5.919)
+2023-12-12 14:56:35 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 14:56:35 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 14:56:35 -Completed initialization in 1 ms
+2023-12-12 14:56:35 -HikariPool-1 - Starting...
+2023-12-12 14:56:35 -HikariPool-1 - Start completed.
+2023-12-12 14:58:50 -HikariPool-1 - Shutdown initiated...
+2023-12-12 14:58:50 -HikariPool-1 - Shutdown completed.
+2023-12-12 15:02:43 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 15:02:43 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24744 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 15:02:43 -The following 1 profile is active: "dev"
+2023-12-12 15:02:43 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 15:02:43 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 15:02:43 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-12 15:02:44 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 15:02:44 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 15:02:44 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 15:02:44 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 15:02:44 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 15:02:45 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 15:02:45 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 15:02:45 -Starting service [Tomcat]
+2023-12-12 15:02:45 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 15:02:45 -Initializing Spring embedded WebApplicationContext
+2023-12-12 15:02:45 -Root WebApplicationContext: initialization completed in 2190 ms
+2023-12-12 15:02:46 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 15:02:46 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 15:02:46 -Started ServiceApplication in 4.199 seconds (JVM running for 5.449)
+2023-12-12 15:03:02 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 15:03:02 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 15:03:02 -Completed initialization in 1 ms
+2023-12-12 15:03:02 -HikariPool-1 - Starting...
+2023-12-12 15:03:02 -HikariPool-1 - Start completed.
+2023-12-12 15:03:53 -HikariPool-1 - Shutdown initiated...
+2023-12-12 15:03:53 -HikariPool-1 - Shutdown completed.
+2023-12-12 15:04:00 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 15:04:00 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 23692 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 15:04:00 -The following 1 profile is active: "dev"
+2023-12-12 15:04:00 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 15:04:00 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 15:04:00 -Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2023-12-12 15:04:01 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 15:04:01 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 15:04:01 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 15:04:01 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 15:04:01 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 15:04:02 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 15:04:02 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 15:04:02 -Starting service [Tomcat]
+2023-12-12 15:04:02 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 15:04:02 -Initializing Spring embedded WebApplicationContext
+2023-12-12 15:04:02 -Root WebApplicationContext: initialization completed in 2220 ms
+2023-12-12 15:04:04 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 15:04:04 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 15:04:04 -Started ServiceApplication in 4.163 seconds (JVM running for 5.422)
+2023-12-12 15:04:55 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 15:04:55 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 15:04:55 -Completed initialization in 1 ms
+2023-12-12 15:04:55 -HikariPool-1 - Starting...
+2023-12-12 15:04:56 -HikariPool-1 - Start completed.
+2023-12-12 15:58:20 -HikariPool-1 - Shutdown initiated...
+2023-12-12 15:58:20 -HikariPool-1 - Shutdown completed.
+2023-12-12 16:23:25 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 16:23:25 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 30440 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 16:23:25 -The following 1 profile is active: "dev"
+2023-12-12 16:23:26 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 16:23:26 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 16:23:26 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-12-12 16:23:27 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 16:23:27 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 16:23:27 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 16:23:27 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 16:23:27 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 16:23:28 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 16:23:28 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 16:23:28 -Starting service [Tomcat]
+2023-12-12 16:23:28 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 16:23:28 -Initializing Spring embedded WebApplicationContext
+2023-12-12 16:23:28 -Root WebApplicationContext: initialization completed in 2360 ms
+2023-12-12 16:23:29 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 16:23:29 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 16:23:29 -Started ServiceApplication in 5.012 seconds (JVM running for 6.641)
+2023-12-12 16:23:48 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 16:23:48 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 16:23:48 -Completed initialization in 1 ms
+2023-12-12 16:25:15 -HikariPool-1 - Starting...
+2023-12-12 16:25:15 -HikariPool-1 - Start completed.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e1192ef (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74dfd0f2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10e38563 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@20a71411 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f776cc3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6525699f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@696120c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@717eb664 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@253bddfc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b9c2155 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 16:29:12 -HikariPool-1 - Shutdown initiated...
+2023-12-12 16:29:12 -HikariPool-1 - Shutdown completed.
+2023-12-12 16:29:18 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 16:29:19 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 29516 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 16:29:19 -The following 1 profile is active: "dev"
+2023-12-12 16:29:19 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 16:29:19 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 16:29:19 -Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-12-12 16:29:20 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 16:29:20 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 16:29:20 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 16:29:20 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 16:29:20 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 16:29:21 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 16:29:21 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 16:29:21 -Starting service [Tomcat]
+2023-12-12 16:29:21 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 16:29:21 -Initializing Spring embedded WebApplicationContext
+2023-12-12 16:29:21 -Root WebApplicationContext: initialization completed in 2223 ms
+2023-12-12 16:29:22 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 16:29:22 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 16:29:22 -Started ServiceApplication in 4.301 seconds (JVM running for 5.504)
+2023-12-12 16:29:31 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 16:29:31 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 16:29:31 -Completed initialization in 1 ms
+2023-12-12 16:29:45 -HikariPool-1 - Starting...
+2023-12-12 16:29:45 -HikariPool-1 - Start completed.
+2023-12-12 18:59:19 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m27s844ms41µs400ns).
+2023-12-12 18:59:32 -HikariPool-1 - Shutdown initiated...
+2023-12-12 18:59:32 -HikariPool-1 - Shutdown completed.
+2023-12-12 19:17:40 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 19:17:40 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 33772 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 19:17:40 -The following 1 profile is active: "dev"
+2023-12-12 19:17:41 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 19:17:41 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 19:17:41 -Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2023-12-12 19:17:42 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 19:17:43 -Root WebApplicationContext: initialization completed in 2530 ms
+2023-12-12 19:17:45 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 19:17:45 -Started ServiceApplication in 5.386 seconds (JVM running for 6.885)
+2023-12-12 19:19:59 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 19:19:59 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 30712 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 19:19:59 -The following 1 profile is active: "dev"
+2023-12-12 19:20:00 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 19:20:00 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 19:20:00 -Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-12-12 19:20:00 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 19:20:00 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 19:20:00 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 19:20:00 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 19:20:00 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 19:20:01 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 19:20:01 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 19:20:01 -Starting service [Tomcat]
+2023-12-12 19:20:01 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 19:20:02 -Initializing Spring embedded WebApplicationContext
+2023-12-12 19:20:02 -Root WebApplicationContext: initialization completed in 2512 ms
+2023-12-12 19:20:04 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 19:20:04 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 19:20:04 -Started ServiceApplication in 5.315 seconds (JVM running for 6.767)
+2023-12-12 19:20:24 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 19:20:24 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 19:20:24 -Completed initialization in 1 ms
+2023-12-12 19:20:24 -HikariPool-1 - Starting...
+2023-12-12 19:20:24 -HikariPool-1 - Start completed.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5122d973 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@642adc1b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b2ba8e2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8380094 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46a33376 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74dbf5bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52913f7c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a65b91a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@450201a3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:24:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e5f62a3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:26:50 -HikariPool-1 - Shutdown initiated...
+2023-12-12 19:26:50 -HikariPool-1 - Shutdown completed.
+2023-12-12 19:26:55 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-12 19:26:55 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 8320 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-12 19:26:55 -The following 1 profile is active: "dev"
+2023-12-12 19:26:55 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-12 19:26:55 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-12 19:26:56 -Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-12-12 19:26:56 -Tomcat initialized with port(s): 8000 (http)
+2023-12-12 19:26:56 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-12 19:26:56 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-12 19:26:56 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-12 19:26:56 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-12 19:26:57 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-12 19:26:57 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-12 19:26:57 -Starting service [Tomcat]
+2023-12-12 19:26:57 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-12 19:26:57 -Initializing Spring embedded WebApplicationContext
+2023-12-12 19:26:57 -Root WebApplicationContext: initialization completed in 2491 ms
+2023-12-12 19:27:00 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-12 19:27:00 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-12 19:27:00 -Started ServiceApplication in 5.529 seconds (JVM running for 8.016)
+2023-12-12 19:27:05 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-12 19:27:05 -Initializing Servlet 'dispatcherServlet'
+2023-12-12 19:27:05 -Completed initialization in 1 ms
+2023-12-12 19:27:05 -HikariPool-1 - Starting...
+2023-12-12 19:27:05 -HikariPool-1 - Start completed.
+2023-12-12 19:30:14 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s366ms179µs200ns).
+2023-12-12 19:30:14 -HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@3f703d13 marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 156,641 milliseconds ago. The last packet sent successfully to the server was 156,643 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:806)
+	at com.zaxxer.hikari.pool.ProxyConnection.commit(ProxyConnection.java:387)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.commit(HikariProxyConnection.java)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:333)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl$$EnhancerBySpringCGLIB$$b4261d6a.updateBaseGroupInfo(<generated>)
+	at edu.nuc.hcj.im.service.group.controller.ImGroupController.update(ImGroupController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 156,641 milliseconds ago. The last packet sent successfully to the server was 156,643 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:794)
+	... 63 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 69 common frames omitted
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1091bdbc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76b5574e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6283a142 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bc8cba7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16a9eb3f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4afac183 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@350cf02f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d175799 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6fc8459c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-12 19:30:14 -Commit exception overridden by rollback exception
+org.springframework.dao.RecoverableDataAccessException: JDBC commit; The last packet successfully received from the server was 156,641 milliseconds ago. The last packet sent successfully to the server was 156,643 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 156,641 milliseconds ago. The last packet sent successfully to the server was 156,643 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:100)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.springframework.jdbc.support.JdbcTransactionManager.translateException(JdbcTransactionManager.java:184)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:336)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl$$EnhancerBySpringCGLIB$$b4261d6a.updateBaseGroupInfo(<generated>)
+	at edu.nuc.hcj.im.service.group.controller.ImGroupController.update(ImGroupController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 156,641 milliseconds ago. The last packet sent successfully to the server was 156,643 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:806)
+	at com.zaxxer.hikari.pool.ProxyConnection.commit(ProxyConnection.java:387)
+	at com.zaxxer.hikari.pool.HikariProxyConnection.commit(HikariProxyConnection.java)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doCommit(DataSourceTransactionManager.java:333)
+	... 60 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 156,641 milliseconds ago. The last packet sent successfully to the server was 156,643 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:794)
+	... 63 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 69 common frames omitted
+2023-12-12 19:33:56 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m42s634ms20µs400ns).
+2023-12-12 19:33:56 -HikariPool-1 - Connection com.mysql.cj.jdbc.ConnectionImpl@531a514f marked as broken because of SQLSTATE(08S01), ErrorCode(0)
+com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy104.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:69)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:92)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	at com.sun.proxy.$Proxy68.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:90)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy87.selectOne(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy88.selectOne(Unknown Source)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupMemberServiceImpl.getRoleInGroupOne(ImGroupMemberServiceImpl.java:180)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl.updateBaseGroupInfo(ImGroupServiceImpl.java:158)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl$$FastClassBySpringCGLIB$$75b8686.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl$$EnhancerBySpringCGLIB$$b4261d6a.updateBaseGroupInfo(<generated>)
+	at edu.nuc.hcj.im.service.group.controller.ImGroupController.update(ImGroupController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:665)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:893)
+	... 106 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 111 common frames omitted
+2023-12-12 19:33:56 -Application exception overridden by rollback exception
+org.springframework.dao.RecoverableDataAccessException: 
+### Error querying database.  Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+### The error may exist in edu/nuc/hcj/im/service/group/dao/mapper/ImGroupMemberMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  group_member_id,app_id,group_id,member_id,role,speak_date,alias,join_time,leave_time,join_type,extra  FROM im_group_member     WHERE (group_id = ? AND app_id = ? AND member_id = ?)
+### Cause: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+; The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:100)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:79)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at com.sun.proxy.$Proxy68.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:159)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:90)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy87.selectOne(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy88.selectOne(Unknown Source)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupMemberServiceImpl.getRoleInGroupOne(ImGroupMemberServiceImpl.java:180)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl.updateBaseGroupInfo(ImGroupServiceImpl.java:158)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl$$FastClassBySpringCGLIB$$75b8686.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at edu.nuc.hcj.im.service.group.service.Impl.ImGroupServiceImpl$$EnhancerBySpringCGLIB$$b4261d6a.updateBaseGroupInfo(<generated>)
+	at edu.nuc.hcj.im.service.group.controller.ImGroupController.update(ImGroupController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at com.sun.proxy.$Proxy104.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doQuery(MybatisSimpleExecutor.java:69)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:165)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.query(MybatisCachingExecutor.java:92)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 82 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: The last packet successfully received from the server was 214,520 milliseconds ago. The last packet sent successfully to the server was 214,522 milliseconds ago. is longer than the server configured value of 'wait_timeout'. You should consider either expiring and/or testing connection validity before use in your application, increasing the server configured values for client timeouts, or using the Connector/J connection property 'autoReconnect=true' to avoid this problem.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:665)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:893)
+	... 106 common frames omitted
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.cj.protocol.ReadAheadInputStream.fill(ReadAheadInputStream.java:107)
+	at com.mysql.cj.protocol.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:150)
+	at com.mysql.cj.protocol.ReadAheadInputStream.read(ReadAheadInputStream.java:180)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 111 common frames omitted
+2023-12-12 19:33:57 -HikariPool-1 - Shutdown initiated...
+2023-12-12 19:33:57 -HikariPool-1 - Shutdown completed.

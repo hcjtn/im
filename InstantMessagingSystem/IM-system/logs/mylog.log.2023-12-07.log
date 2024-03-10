@@ -1,0 +1,294 @@
+2023-12-07 12:13:37 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 12:13:37 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 7700 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 12:13:37 -The following 1 profile is active: "dev"
+2023-12-07 12:13:37 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 12:13:37 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 12:13:37 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-12-07 12:13:38 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 12:13:38 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 12:13:38 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 12:13:38 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 12:13:38 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 12:13:39 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 12:13:39 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:13:39 -Starting service [Tomcat]
+2023-12-07 12:13:39 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 12:13:39 -Initializing Spring embedded WebApplicationContext
+2023-12-07 12:13:39 -Root WebApplicationContext: initialization completed in 2320 ms
+2023-12-07 12:13:40 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:13:40 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 12:13:40 -Started ServiceApplication in 4.339 seconds (JVM running for 6.298)
+2023-12-07 12:13:44 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 12:13:44 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 12:13:44 -Completed initialization in 1 ms
+2023-12-07 12:17:18 -HikariPool-1 - Starting...
+2023-12-07 12:17:18 -HikariPool-1 - Start completed.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@29c2071b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cc64f59 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@618f0060 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@720bac17 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65c1bae9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5bc38d8f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42d61a97 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6d926dce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ec8467 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:19:23 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4284dea0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4e768118 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a823562 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c8a29fc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@b8c6518 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1049e77 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fc29a35 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a904a9c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5418abdc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@473e4b69 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:22:09 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5c366289 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-07 12:23:49 -HikariPool-1 - Shutdown initiated...
+2023-12-07 12:23:49 -HikariPool-1 - Shutdown completed.
+2023-12-07 12:23:53 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 12:23:53 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 18624 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 12:23:53 -The following 1 profile is active: "dev"
+2023-12-07 12:23:54 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 12:23:54 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 12:23:54 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-12-07 12:23:54 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 12:23:54 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 12:23:54 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 12:23:54 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 12:23:54 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 12:23:55 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 12:23:55 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:23:55 -Starting service [Tomcat]
+2023-12-07 12:23:55 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 12:23:56 -Initializing Spring embedded WebApplicationContext
+2023-12-07 12:23:56 -Root WebApplicationContext: initialization completed in 2161 ms
+2023-12-07 12:23:57 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:23:57 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 12:23:57 -Started ServiceApplication in 3.947 seconds (JVM running for 5.976)
+2023-12-07 12:24:07 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 12:24:07 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 12:24:07 -Completed initialization in 1 ms
+2023-12-07 12:24:42 -HikariPool-1 - Starting...
+2023-12-07 12:24:42 -HikariPool-1 - Start completed.
+2023-12-07 12:26:20 -HikariPool-1 - Shutdown initiated...
+2023-12-07 12:26:20 -HikariPool-1 - Shutdown completed.
+2023-12-07 12:26:25 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 12:26:25 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 19032 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 12:26:25 -The following 1 profile is active: "dev"
+2023-12-07 12:26:25 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 12:26:25 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 12:26:25 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-12-07 12:26:26 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 12:26:26 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 12:26:26 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 12:26:26 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 12:26:26 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 12:26:27 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 12:26:27 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:26:27 -Starting service [Tomcat]
+2023-12-07 12:26:27 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 12:26:27 -Initializing Spring embedded WebApplicationContext
+2023-12-07 12:26:27 -Root WebApplicationContext: initialization completed in 2146 ms
+2023-12-07 12:26:28 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:26:28 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 12:26:28 -Started ServiceApplication in 4.062 seconds (JVM running for 5.249)
+2023-12-07 12:26:49 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 12:26:49 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 12:26:49 -Completed initialization in 1 ms
+2023-12-07 12:27:40 -HikariPool-1 - Starting...
+2023-12-07 12:27:40 -HikariPool-1 - Start completed.
+2023-12-07 12:28:27 -HikariPool-1 - Shutdown initiated...
+2023-12-07 12:28:27 -HikariPool-1 - Shutdown completed.
+2023-12-07 12:28:31 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 12:28:31 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 13284 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 12:28:31 -The following 1 profile is active: "dev"
+2023-12-07 12:28:31 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 12:28:31 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 12:28:31 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-07 12:28:31 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 12:28:31 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 12:28:31 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 12:28:31 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 12:28:31 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 12:28:32 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 12:28:32 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:28:32 -Starting service [Tomcat]
+2023-12-07 12:28:32 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 12:28:33 -Initializing Spring embedded WebApplicationContext
+2023-12-07 12:28:33 -Root WebApplicationContext: initialization completed in 1978 ms
+2023-12-07 12:28:34 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:28:34 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 12:28:34 -Started ServiceApplication in 3.664 seconds (JVM running for 4.611)
+2023-12-07 12:53:07 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 12:53:07 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 21020 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 12:53:07 -The following 1 profile is active: "dev"
+2023-12-07 12:53:07 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 12:53:07 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 12:53:07 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-07 12:53:08 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 12:53:08 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 12:53:08 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 12:53:08 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 12:53:08 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 12:53:09 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 12:53:09 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:53:09 -Starting service [Tomcat]
+2023-12-07 12:53:09 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 12:53:09 -Initializing Spring embedded WebApplicationContext
+2023-12-07 12:53:09 -Root WebApplicationContext: initialization completed in 2140 ms
+2023-12-07 12:53:10 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 12:53:10 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 12:53:10 -Started ServiceApplication in 4.011 seconds (JVM running for 5.211)
+2023-12-07 12:54:18 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 12:54:18 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 12:54:18 -Completed initialization in 0 ms
+2023-12-07 12:54:28 -HikariPool-1 - Starting...
+2023-12-07 12:54:28 -HikariPool-1 - Start completed.
+2023-12-07 12:57:46 -HikariPool-1 - Shutdown initiated...
+2023-12-07 12:57:46 -HikariPool-1 - Shutdown completed.
+2023-12-07 14:25:23 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 14:25:23 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24872 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 14:25:23 -The following 1 profile is active: "dev"
+2023-12-07 14:25:24 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 14:25:24 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 14:25:24 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-07 14:25:24 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 14:25:24 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 14:25:24 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 14:25:24 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 14:25:24 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 14:25:25 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 14:25:25 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 14:25:25 -Starting service [Tomcat]
+2023-12-07 14:25:25 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 14:25:25 -Initializing Spring embedded WebApplicationContext
+2023-12-07 14:25:25 -Root WebApplicationContext: initialization completed in 2158 ms
+2023-12-07 14:25:27 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 14:25:27 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 14:25:27 -Started ServiceApplication in 4.112 seconds (JVM running for 5.448)
+2023-12-07 14:28:26 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 14:28:26 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 14:28:26 -Completed initialization in 0 ms
+2023-12-07 14:29:54 -HikariPool-1 - Starting...
+2023-12-07 14:29:54 -HikariPool-1 - Start completed.
+2023-12-07 14:32:09 -HikariPool-1 - Shutdown initiated...
+2023-12-07 14:32:09 -HikariPool-1 - Shutdown completed.
+2023-12-07 14:32:13 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 14:32:13 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 21188 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 14:32:13 -The following 1 profile is active: "dev"
+2023-12-07 14:32:14 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 14:32:14 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 14:32:14 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-07 14:32:14 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 14:32:14 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 14:32:14 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 14:32:14 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 14:32:14 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 14:32:15 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 14:32:15 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 14:32:15 -Starting service [Tomcat]
+2023-12-07 14:32:15 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 14:32:15 -Initializing Spring embedded WebApplicationContext
+2023-12-07 14:32:15 -Root WebApplicationContext: initialization completed in 2045 ms
+2023-12-07 14:32:17 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 14:32:17 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 14:32:17 -Started ServiceApplication in 3.699 seconds (JVM running for 4.732)
+2023-12-07 14:32:32 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 14:32:32 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 14:32:32 -Completed initialization in 1 ms
+2023-12-07 14:32:32 -HikariPool-1 - Starting...
+2023-12-07 14:32:32 -HikariPool-1 - Start completed.
+2023-12-07 16:45:51 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 16:45:51 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 23348 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 16:45:51 -The following 1 profile is active: "dev"
+2023-12-07 16:45:52 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 16:45:52 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 16:45:52 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2023-12-07 16:45:52 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 16:45:52 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 16:45:52 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 16:45:52 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 16:45:52 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 16:45:53 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 16:45:53 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 16:45:53 -Starting service [Tomcat]
+2023-12-07 16:45:53 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 16:45:53 -Initializing Spring embedded WebApplicationContext
+2023-12-07 16:45:53 -Root WebApplicationContext: initialization completed in 2352 ms
+2023-12-07 16:45:55 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 16:45:55 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 16:45:55 -Started ServiceApplication in 4.576 seconds (JVM running for 5.915)
+2023-12-07 16:50:22 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 16:50:22 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 16:50:22 -Completed initialization in 1 ms
+2023-12-07 20:45:09 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 20:45:09 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 34704 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 20:45:09 -The following 1 profile is active: "dev"
+2023-12-07 20:45:10 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 20:45:10 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 20:45:10 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-07 20:45:10 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 20:45:10 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 20:45:10 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 20:45:10 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 20:45:10 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 20:45:11 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 20:45:11 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 20:45:11 -Starting service [Tomcat]
+2023-12-07 20:45:11 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 20:45:11 -Initializing Spring embedded WebApplicationContext
+2023-12-07 20:45:11 -Root WebApplicationContext: initialization completed in 2276 ms
+2023-12-07 20:45:12 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipController': Unsatisfied dependency expressed through field 'imFriendShipService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipServiceImpl': Unsatisfied dependency expressed through field 'imFriendShipRequestService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imFriendShipRequestServiceImpl': Unsatisfied dependency expressed through field 'imFriendShipService'; nested exception is org.springframework.beans.factory.BeanCurrentlyInCreationException: Error creating bean with name 'imFriendShipServiceImpl': Requested bean is currently in creation: Is there an unresolvable circular reference?
+2023-12-07 20:45:12 -Stopping service [Tomcat]
+2023-12-07 20:45:12 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-07 20:45:12 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   imFriendShipController (field edu.nuc.hcj.im.service.friendship.service.ImFriendShipService edu.nuc.hcj.im.service.friendship.controller.ImFriendShipController.imFriendShipService)
+┌─────┐
+|  imFriendShipServiceImpl (field edu.nuc.hcj.im.service.friendship.service.ImFriendShipRequestService edu.nuc.hcj.im.service.friendship.service.Impl.ImFriendShipServiceImpl.imFriendShipRequestService)
+↑     ↓
+|  imFriendShipRequestServiceImpl (field edu.nuc.hcj.im.service.friendship.service.ImFriendShipService edu.nuc.hcj.im.service.friendship.service.Impl.ImFriendShipRequestServiceImpl.imFriendShipService)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2023-12-07 20:46:25 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-07 20:46:25 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 33300 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-07 20:46:25 -The following 1 profile is active: "dev"
+2023-12-07 20:46:26 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-07 20:46:26 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-07 20:46:26 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-07 20:46:26 -Tomcat initialized with port(s): 8000 (http)
+2023-12-07 20:46:26 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-07 20:46:26 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-07 20:46:26 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-07 20:46:26 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-07 20:46:27 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-07 20:46:27 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-07 20:46:27 -Starting service [Tomcat]
+2023-12-07 20:46:27 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-07 20:46:27 -Initializing Spring embedded WebApplicationContext
+2023-12-07 20:46:27 -Root WebApplicationContext: initialization completed in 2221 ms
+2023-12-07 20:46:29 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-07 20:46:29 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-07 20:46:29 -Started ServiceApplication in 4.333 seconds (JVM running for 5.439)
+2023-12-07 20:48:03 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-07 20:48:03 -Initializing Servlet 'dispatcherServlet'
+2023-12-07 20:48:03 -Completed initialization in 1 ms
+2023-12-07 20:48:03 -HikariPool-1 - Starting...
+2023-12-07 20:48:03 -HikariPool-1 - Start completed.
+2023-12-07 21:01:22 -HikariPool-1 - Shutdown initiated...
+2023-12-07 21:01:22 -HikariPool-1 - Shutdown completed.

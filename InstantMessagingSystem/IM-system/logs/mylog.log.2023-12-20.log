@@ -1,0 +1,120 @@
+2023-12-20 19:31:41 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-20 19:31:41 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 23212 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-20 19:31:41 -The following 1 profile is active: "dev"
+2023-12-20 19:31:42 -Tomcat initialized with port(s): 8000 (http)
+2023-12-20 19:31:42 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-20 19:31:42 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-20 19:31:42 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-20 19:31:42 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 19:31:43 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-20 19:31:43 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-20 19:31:43 -Starting service [Tomcat]
+2023-12-20 19:31:43 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-20 19:31:43 -Initializing Spring embedded WebApplicationContext
+2023-12-20 19:31:43 -Root WebApplicationContext: initialization completed in 2151 ms
+2023-12-20 19:31:44 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-20 19:31:44 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-20 19:31:44 -Started ServiceApplication in 4.242 seconds (JVM running for 5.248)
+2023-12-20 19:33:18 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 19:33:18 -Initializing Servlet 'dispatcherServlet'
+2023-12-20 19:33:18 -Completed initialization in 1 ms
+2023-12-20 19:33:44 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-20 19:33:44 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 7752 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-20 19:33:44 -The following 1 profile is active: "dev"
+2023-12-20 19:33:45 -Tomcat initialized with port(s): 8000 (http)
+2023-12-20 19:33:45 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-20 19:33:45 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-20 19:33:45 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-20 19:33:45 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 19:33:46 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-20 19:33:46 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-20 19:33:46 -Starting service [Tomcat]
+2023-12-20 19:33:46 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-20 19:33:46 -Initializing Spring embedded WebApplicationContext
+2023-12-20 19:33:46 -Root WebApplicationContext: initialization completed in 1963 ms
+2023-12-20 19:33:47 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-20 19:33:47 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-20 19:33:47 -Started ServiceApplication in 3.781 seconds (JVM running for 4.772)
+2023-12-20 19:33:51 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 19:33:51 -Initializing Servlet 'dispatcherServlet'
+2023-12-20 19:33:51 -Completed initialization in 1 ms
+2023-12-20 19:48:47 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-20 19:48:47 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24292 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-20 19:48:47 -The following 1 profile is active: "dev"
+2023-12-20 19:48:48 -Tomcat initialized with port(s): 8000 (http)
+2023-12-20 19:48:48 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-20 19:48:48 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-20 19:48:48 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-20 19:48:48 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 19:48:49 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-20 19:48:49 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-20 19:48:49 -Starting service [Tomcat]
+2023-12-20 19:48:49 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-20 19:48:49 -Initializing Spring embedded WebApplicationContext
+2023-12-20 19:48:49 -Root WebApplicationContext: initialization completed in 2017 ms
+2023-12-20 19:48:50 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-20 19:48:50 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-20 19:48:50 -Started ServiceApplication in 3.898 seconds (JVM running for 5.014)
+2023-12-20 19:49:04 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 19:49:04 -Initializing Servlet 'dispatcherServlet'
+2023-12-20 19:49:04 -Completed initialization in 1 ms
+2023-12-20 20:32:07 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-20 20:32:07 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 20052 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-20 20:32:07 -The following 1 profile is active: "dev"
+2023-12-20 20:32:08 -Tomcat initialized with port(s): 8000 (http)
+2023-12-20 20:32:08 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-20 20:32:08 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-20 20:32:08 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-20 20:32:08 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 20:32:09 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-20 20:32:09 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-20 20:32:09 -Starting service [Tomcat]
+2023-12-20 20:32:09 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-20 20:32:10 -Initializing Spring embedded WebApplicationContext
+2023-12-20 20:32:10 -Root WebApplicationContext: initialization completed in 2112 ms
+2023-12-20 20:32:11 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-20 20:32:11 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-20 20:32:11 -Started ServiceApplication in 4.061 seconds (JVM running for 5.168)
+2023-12-20 20:32:43 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 20:32:43 -Initializing Servlet 'dispatcherServlet'
+2023-12-20 20:32:43 -Completed initialization in 1 ms
+2023-12-20 20:33:29 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-20 20:33:29 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 22952 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-20 20:33:29 -The following 1 profile is active: "dev"
+2023-12-20 20:33:30 -Tomcat initialized with port(s): 8000 (http)
+2023-12-20 20:33:30 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-20 20:33:30 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-20 20:33:30 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-20 20:33:30 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 20:33:31 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-20 20:33:31 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-20 20:33:31 -Starting service [Tomcat]
+2023-12-20 20:33:31 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-20 20:33:31 -Initializing Spring embedded WebApplicationContext
+2023-12-20 20:33:31 -Root WebApplicationContext: initialization completed in 2076 ms
+2023-12-20 20:33:32 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-20 20:33:32 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-20 20:33:32 -Started ServiceApplication in 4.166 seconds (JVM running for 6.371)
+2023-12-20 20:33:36 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 20:33:36 -Initializing Servlet 'dispatcherServlet'
+2023-12-20 20:33:36 -Completed initialization in 1 ms
+2023-12-20 20:36:43 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-20 20:36:43 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 25408 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-20 20:36:43 -The following 1 profile is active: "dev"
+2023-12-20 20:36:44 -Tomcat initialized with port(s): 8000 (http)
+2023-12-20 20:36:44 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-20 20:36:44 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-20 20:36:44 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-20 20:36:44 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 20:36:45 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-20 20:36:45 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-20 20:36:45 -Starting service [Tomcat]
+2023-12-20 20:36:45 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-20 20:36:45 -Initializing Spring embedded WebApplicationContext
+2023-12-20 20:36:45 -Root WebApplicationContext: initialization completed in 2214 ms
+2023-12-20 20:36:47 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-20 20:36:47 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-20 20:36:47 -Started ServiceApplication in 4.279 seconds (JVM running for 5.544)
+2023-12-20 20:36:49 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 20:36:49 -Initializing Servlet 'dispatcherServlet'
+2023-12-20 20:36:49 -Completed initialization in 2 ms

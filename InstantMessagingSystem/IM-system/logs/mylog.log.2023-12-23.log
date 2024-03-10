@@ -1,0 +1,364 @@
+2023-12-23 16:13:52 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:13:52 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 22232 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:13:52 -The following 1 profile is active: "dev"
+2023-12-23 16:13:53 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:13:53 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:13:53 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:13:53 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:13:53 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:13:54 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:13:54 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:13:54 -Starting service [Tomcat]
+2023-12-23 16:13:54 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:13:54 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:13:54 -Root WebApplicationContext: initialization completed in 2503 ms
+2023-12-23 16:13:56 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'routeHandle'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [edu/nuc/hcj/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+2023-12-23 16:13:56 -Stopping service [Tomcat]
+2023-12-23 16:13:56 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-23 16:13:56 -Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'routeHandle'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [edu/nuc/hcj/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:13)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [edu/nuc/hcj/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at edu.nuc.hcj.im.service.config.BeanConfig.routeHandle(BeanConfig.java:70)
+	at edu.nuc.hcj.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$efa7107d.CGLIB$routeHandle$4(<generated>)
+	at edu.nuc.hcj.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$efa7107d$$FastClassBySpringCGLIB$$41292b8.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at edu.nuc.hcj.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$efa7107d.routeHandle(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 34 common frames omitted
+2023-12-23 16:18:50 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:18:50 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 20032 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:18:50 -The following 1 profile is active: "dev"
+2023-12-23 16:18:51 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:18:51 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:18:51 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:18:51 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:18:51 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:18:52 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:18:52 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:18:52 -Starting service [Tomcat]
+2023-12-23 16:18:52 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:18:52 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:18:52 -Root WebApplicationContext: initialization completed in 1914 ms
+2023-12-23 16:18:53 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'routeHandle'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [edu/nuc/hcj/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+2023-12-23 16:18:53 -Stopping service [Tomcat]
+2023-12-23 16:18:53 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-23 16:18:53 -Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'imUserController': Unsatisfied dependency expressed through field 'routeHandle'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [edu/nuc/hcj/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:13)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'routeHandle' defined in class path resource [edu/nuc/hcj/im/service/config/BeanConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [edu.nuc.hcj.im.common.route.RouteHandle]: Factory method 'routeHandle' threw exception; nested exception is java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.lld.im.common.route.algorithm.random.RandomHandle
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at edu.nuc.hcj.im.service.config.BeanConfig.routeHandle(BeanConfig.java:70)
+	at edu.nuc.hcj.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$d0590c29.CGLIB$routeHandle$2(<generated>)
+	at edu.nuc.hcj.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$d0590c29$$FastClassBySpringCGLIB$$28a8241f.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at edu.nuc.hcj.im.service.config.BeanConfig$$EnhancerBySpringCGLIB$$d0590c29.routeHandle(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 34 common frames omitted
+2023-12-23 16:24:14 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:24:14 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 22316 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:24:14 -The following 1 profile is active: "dev"
+2023-12-23 16:24:14 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:24:14 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:24:14 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:24:14 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:24:14 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:24:15 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:24:15 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:24:15 -Starting service [Tomcat]
+2023-12-23 16:24:15 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:24:15 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:24:15 -Root WebApplicationContext: initialization completed in 1869 ms
+2023-12-23 16:24:17 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:24:17 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:24:17 -Started ServiceApplication in 3.971 seconds (JVM running for 4.994)
+2023-12-23 16:25:45 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:25:45 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:25:45 -Completed initialization in 1 ms
+2023-12-23 16:27:06 -HikariPool-1 - Starting...
+2023-12-23 16:27:07 -HikariPool-1 - Start completed.
+2023-12-23 16:27:50 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:27:50 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 19976 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:27:50 -The following 1 profile is active: "dev"
+2023-12-23 16:27:51 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:27:51 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:27:51 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:27:51 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:27:51 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:27:52 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:27:52 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:27:52 -Starting service [Tomcat]
+2023-12-23 16:27:52 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:27:53 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:27:53 -Root WebApplicationContext: initialization completed in 2100 ms
+2023-12-23 16:27:54 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:27:54 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:27:54 -Started ServiceApplication in 4.706 seconds (JVM running for 5.74)
+2023-12-23 16:27:56 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:27:56 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:27:56 -Completed initialization in 0 ms
+2023-12-23 16:27:56 -HikariPool-1 - Starting...
+2023-12-23 16:27:56 -HikariPool-1 - Start completed.
+2023-12-23 16:29:34 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:29:34 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 20404 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:29:34 -The following 1 profile is active: "dev"
+2023-12-23 16:29:35 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:29:35 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:29:35 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:29:35 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:29:35 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:29:36 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:29:36 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:29:36 -Starting service [Tomcat]
+2023-12-23 16:29:36 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:29:36 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:29:36 -Root WebApplicationContext: initialization completed in 1986 ms
+2023-12-23 16:29:38 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:29:38 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:29:38 -Started ServiceApplication in 4.291 seconds (JVM running for 5.261)
+2023-12-23 16:29:42 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:29:42 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:29:42 -Completed initialization in 1 ms
+2023-12-23 16:29:42 -HikariPool-1 - Starting...
+2023-12-23 16:29:42 -HikariPool-1 - Start completed.
+2023-12-23 16:30:26 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:30:26 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 19848 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:30:26 -The following 1 profile is active: "dev"
+2023-12-23 16:30:27 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:30:27 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:30:27 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:30:27 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:30:27 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:30:28 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:30:28 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:30:28 -Starting service [Tomcat]
+2023-12-23 16:30:28 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:30:28 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:30:28 -Root WebApplicationContext: initialization completed in 2052 ms
+2023-12-23 16:30:30 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:30:30 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:30:30 -Started ServiceApplication in 4.549 seconds (JVM running for 5.544)
+2023-12-23 16:30:34 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:30:34 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:30:34 -Completed initialization in 0 ms
+2023-12-23 16:30:34 -HikariPool-1 - Starting...
+2023-12-23 16:30:34 -HikariPool-1 - Start completed.
+2023-12-23 16:31:07 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:31:07 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 3128 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:31:07 -The following 1 profile is active: "dev"
+2023-12-23 16:31:08 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:31:08 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:31:08 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:31:08 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:31:08 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:31:09 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:31:09 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:31:09 -Starting service [Tomcat]
+2023-12-23 16:31:09 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:31:10 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:31:10 -Root WebApplicationContext: initialization completed in 2132 ms
+2023-12-23 16:31:12 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:31:12 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:31:12 -Started ServiceApplication in 4.555 seconds (JVM running for 6.891)
+2023-12-23 16:31:15 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:31:15 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:31:15 -Completed initialization in 0 ms
+2023-12-23 16:31:15 -HikariPool-1 - Starting...
+2023-12-23 16:31:15 -HikariPool-1 - Start completed.
+2023-12-23 16:32:19 -HikariPool-1 - Shutdown initiated...
+2023-12-23 16:32:19 -HikariPool-1 - Shutdown completed.
+2023-12-23 16:32:23 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:32:23 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 148 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:32:23 -The following 1 profile is active: "dev"
+2023-12-23 16:32:24 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:32:24 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:32:24 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:32:24 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:32:24 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:32:25 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:32:25 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:32:25 -Starting service [Tomcat]
+2023-12-23 16:32:25 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:32:25 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:32:25 -Root WebApplicationContext: initialization completed in 1929 ms
+2023-12-23 16:32:27 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:32:27 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:32:27 -Started ServiceApplication in 4.154 seconds (JVM running for 5.075)
+2023-12-23 16:32:34 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:32:34 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:32:34 -Completed initialization in 1 ms
+2023-12-23 16:32:34 -HikariPool-1 - Starting...
+2023-12-23 16:32:34 -HikariPool-1 - Start completed.
+2023-12-23 16:32:56 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:32:56 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 26336 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:32:56 -The following 1 profile is active: "dev"
+2023-12-23 16:32:57 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:32:57 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:32:57 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:32:57 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:32:57 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:32:58 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:32:58 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:32:58 -Starting service [Tomcat]
+2023-12-23 16:32:58 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:32:58 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:32:58 -Root WebApplicationContext: initialization completed in 2228 ms
+2023-12-23 16:33:00 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:33:00 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:33:00 -Started ServiceApplication in 4.706 seconds (JVM running for 6.352)
+2023-12-23 16:33:02 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:33:02 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:33:02 -Completed initialization in 0 ms
+2023-12-23 16:33:02 -HikariPool-1 - Starting...
+2023-12-23 16:33:02 -HikariPool-1 - Start completed.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@56bf05b7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@cba9281 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@f9233cf (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1aa5a81e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5753db18 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fa565e9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11373399 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@26658cf9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@630aeb15 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:40:06 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6982a1c9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@703a0c5f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3588a2e1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@31b72088 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@74b5a8da (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@35643d3f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@149a5795 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@830dfc (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d63aeea (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@56b47c1a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:45:58 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@10d4afa6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-23 16:49:57 -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m42s96ms645µs500ns).
+2023-12-23 16:50:17 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-23 16:50:17 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24860 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-23 16:50:17 -The following 1 profile is active: "dev"
+2023-12-23 16:50:18 -Tomcat initialized with port(s): 8000 (http)
+2023-12-23 16:50:18 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-23 16:50:18 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-23 16:50:18 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-23 16:50:18 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-23 16:50:19 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-23 16:50:19 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:50:19 -Starting service [Tomcat]
+2023-12-23 16:50:19 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-23 16:50:19 -Initializing Spring embedded WebApplicationContext
+2023-12-23 16:50:19 -Root WebApplicationContext: initialization completed in 2146 ms
+2023-12-23 16:50:21 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-23 16:50:21 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-23 16:50:21 -Started ServiceApplication in 4.573 seconds (JVM running for 6.261)
+2023-12-23 16:50:29 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-23 16:50:29 -Initializing Servlet 'dispatcherServlet'
+2023-12-23 16:50:29 -Completed initialization in 1 ms
+2023-12-23 16:50:30 -HikariPool-1 - Starting...
+2023-12-23 16:50:30 -HikariPool-1 - Start completed.
+2023-12-23 16:50:45 -ShareThreadPool executed taskDone,remanent num = 0,slow task fatal warning,costs time = 1713,stack: [java.lang.Thread.getStackTrace(Thread.java:1559), edu.nuc.hcj.im.service.utils.ShareThreadPool.submit(ShareThreadPool.java:46), edu.nuc.hcj.im.service.utils.CallbackService.callback(CallbackService.java:45), edu.nuc.hcj.im.service.user.service.Impl.IMUserServiceImpl.modifyUserInfo(IMUserServiceImpl.java:191), edu.nuc.hcj.im.service.user.service.Impl.IMUserServiceImpl$$FastClassBySpringCGLIB$$6ee862fa.invoke(<generated>), org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218), org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793), org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163), org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763), org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123), org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388), org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119), org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186), org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763), org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708), edu.nuc.hcj.im.service.user.service.Impl.IMUserServiceImpl$$EnhancerBySpringCGLIB$$9b18c4e6.modifyUserInfo(<generated>), edu.nuc.hcj.im.service.user.Controller.ImUserDataController.modifyUserInfo(ImUserDataController.java:50), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.lang.reflect.Method.invoke(Method.java:498), org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205), org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150), org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117), org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895), org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808), org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87), org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071), org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964), org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006), org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909), javax.servlet.http.HttpServlet.service(HttpServlet.java:696), org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883), javax.servlet.http.HttpServlet.service(HttpServlet.java:779), org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227), org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162), org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53), org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189), org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162), org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100), org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117), org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189), org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162), org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93), org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117), org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189), org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162), org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201), org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117), org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189), org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162), org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197), org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97), org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541), org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135), org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92), org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78), org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360), org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399), org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65), org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893), org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789), org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49), org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191), org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659), org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61), java.lang.Thread.run(Thread.java:748)]
+2023-12-23 16:51:02 -HikariPool-1 - Shutdown initiated...
+2023-12-23 16:51:02 -HikariPool-1 - Shutdown completed.

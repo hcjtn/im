@@ -1,0 +1,17 @@
+2024-01-06 16:16:08 -Starting AppServiceApplication on hcj with PID 19792 (D:\Idea\InstantMessagingSystem\l-im-app-server\target\classes started by hcj in D:\Idea\InstantMessagingSystem\l-im-app-server)
+2024-01-06 16:16:08 -The following profiles are active: dev
+2024-01-06 16:16:09 -Tomcat initialized with port(s): 8989 (http)
+2024-01-06 16:16:09 -Initializing ProtocolHandler ["http-nio-8989"]
+2024-01-06 16:16:09 -Starting service [Tomcat]
+2024-01-06 16:16:09 -Starting Servlet engine: [Apache Tomcat/9.0.37]
+2024-01-06 16:16:09 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2024-01-06 16:16:09 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:16:09 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2024-01-06 16:16:09 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:16:10 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:16:10 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:16:10 -Root WebApplicationContext: initialization completed in 2595 ms
+2024-01-06 16:16:13 -Initializing ExecutorService 'applicationTaskExecutor'
+2024-01-06 16:16:13 -Starting ProtocolHandler ["http-nio-8989"]
+2024-01-06 16:16:13 -Tomcat started on port(s): 8989 (http) with context path ''
+2024-01-06 16:16:13 -Started AppServiceApplication in 5.775 seconds (JVM running for 6.803)

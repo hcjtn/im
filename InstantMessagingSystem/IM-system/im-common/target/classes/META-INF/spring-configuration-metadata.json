@@ -1,0 +1,177 @@
+{
+  "groups": [
+    {
+      "name": "appconfig",
+      "type": "edu.nuc.hcj.im.common.config.Appconfig",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "httpclient",
+      "type": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "appconfig.add-friend-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.add-friend-before-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.add-friend-ship-black-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.add-group-member-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.add-group-member-before-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.callback-url",
+      "type": "java.lang.String",
+      "description": "回调url",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.consistent-hash-way",
+      "type": "java.lang.Integer",
+      "description": "如果选用一致性hash的话具体hash算法",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.create-group-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.delete-conversation-sync-mode",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.delete-friend-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.delete-friend-ship-black-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.delete-group-member-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.destroy-group-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.im-route-way",
+      "type": "java.lang.Integer",
+      "description": "im管道地址路由策略",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.modify-friend-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.modify-group-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.modify-user-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.offline-message-count",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.private-key",
+      "type": "java.lang.String",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.send-message-after-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.send-message-before-callback",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.send-message-check-black",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.send-message-check-friend",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.zk-addr",
+      "type": "java.lang.String",
+      "description": "zk连接地址",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "appconfig.zk-connect-time-out",
+      "type": "java.lang.Integer",
+      "description": "zk连接超时时间",
+      "sourceType": "edu.nuc.hcj.im.common.config.Appconfig"
+    },
+    {
+      "name": "httpclient.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    },
+    {
+      "name": "httpclient.connection-request-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    },
+    {
+      "name": "httpclient.default-max-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    },
+    {
+      "name": "httpclient.max-total",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    },
+    {
+      "name": "httpclient.socket-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    },
+    {
+      "name": "httpclient.stale-connection-check-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "edu.nuc.hcj.im.common.config.GlobalHttpClientConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,672 @@
+2023-12-06 19:42:59 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 28992 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:42:59 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:42:59 -The following 1 profile is active: "dev"
+2023-12-06 19:42:59 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:42:59 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:42:59 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:43:00 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:43:00 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:43:00 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:43:00 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:43:00 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:43:01 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:43:01 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:43:01 -Starting service [Tomcat]
+2023-12-06 19:43:01 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:43:01 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:43:01 -Root WebApplicationContext: initialization completed in 2580 ms
+2023-12-06 19:43:02 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+2023-12-06 19:43:02 -Stopping service [Tomcat]
+2023-12-06 19:43:02 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-06 19:43:02 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:94)
+	at java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:283)
+	at java.lang.reflect.Method.getGenericParameterTypes(Method.java:283)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1420)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1341)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1323)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1290)
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69)
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:864)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:823)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:806)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rabbitmq.client.impl.CredentialsRefreshService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+2023-12-06 19:44:24 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:44:24 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 8744 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:44:24 -The following 1 profile is active: "dev"
+2023-12-06 19:44:25 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:44:25 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:44:25 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:44:25 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:44:25 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:44:25 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:44:25 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:44:25 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:44:26 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:44:26 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:44:26 -Starting service [Tomcat]
+2023-12-06 19:44:26 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:44:26 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:44:26 -Root WebApplicationContext: initialization completed in 2054 ms
+2023-12-06 19:44:27 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+2023-12-06 19:44:27 -Stopping service [Tomcat]
+2023-12-06 19:44:27 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-06 19:44:27 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:94)
+	at java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:283)
+	at java.lang.reflect.Method.getGenericParameterTypes(Method.java:283)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1420)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1341)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1323)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1290)
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69)
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:864)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:823)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:806)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rabbitmq.client.impl.CredentialsRefreshService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+2023-12-06 19:45:04 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 35240 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:45:04 -The following 1 profile is active: "dev"
+2023-12-06 19:45:04 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:45:04 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:45:04 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:45:04 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:45:04 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:45:04 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:45:04 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:45:04 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:45:04 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:45:06 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:45:06 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:45:06 -Starting service [Tomcat]
+2023-12-06 19:45:06 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:45:06 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:45:06 -Root WebApplicationContext: initialization completed in 2093 ms
+2023-12-06 19:45:07 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+2023-12-06 19:45:07 -Stopping service [Tomcat]
+2023-12-06 19:45:07 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-06 19:45:07 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:94)
+	at java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:283)
+	at java.lang.reflect.Method.getGenericParameterTypes(Method.java:283)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1420)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1341)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1323)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1290)
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69)
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:864)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:823)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:806)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rabbitmq.client.impl.CredentialsRefreshService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+2023-12-06 19:47:17 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 26148 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:47:17 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:47:17 -The following 1 profile is active: "dev"
+2023-12-06 19:47:17 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:47:17 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:47:17 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:47:18 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:47:18 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:47:18 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:47:18 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:47:18 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:47:19 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:47:19 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:47:19 -Starting service [Tomcat]
+2023-12-06 19:47:19 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:47:19 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:47:19 -Root WebApplicationContext: initialization completed in 2076 ms
+2023-12-06 19:47:20 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+2023-12-06 19:47:20 -Stopping service [Tomcat]
+2023-12-06 19:47:20 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-06 19:47:20 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:94)
+	at java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:283)
+	at java.lang.reflect.Method.getGenericParameterTypes(Method.java:283)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1420)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1341)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1323)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1290)
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69)
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:864)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:823)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:806)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rabbitmq.client.impl.CredentialsRefreshService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+2023-12-06 19:48:13 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 36828 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:48:13 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:48:13 -The following 1 profile is active: "dev"
+2023-12-06 19:48:14 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:48:14 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:48:14 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:48:15 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:48:15 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:48:15 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:48:15 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:48:15 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:48:16 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:48:16 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:48:16 -Starting service [Tomcat]
+2023-12-06 19:48:16 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:48:16 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:48:16 -Root WebApplicationContext: initialization completed in 2830 ms
+2023-12-06 19:48:18 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+2023-12-06 19:48:18 -Stopping service [Tomcat]
+2023-12-06 19:48:18 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-06 19:48:18 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:94)
+	at java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:283)
+	at java.lang.reflect.Method.getGenericParameterTypes(Method.java:283)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1420)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1341)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1323)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1290)
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69)
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:864)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:823)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:806)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rabbitmq.client.impl.CredentialsRefreshService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+2023-12-06 19:49:12 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:49:12 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 36500 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:49:12 -The following 1 profile is active: "dev"
+2023-12-06 19:49:12 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:49:12 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:49:12 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:49:13 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:49:13 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:49:13 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:49:13 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:49:13 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:49:14 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:49:14 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:49:14 -Starting service [Tomcat]
+2023-12-06 19:49:14 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:49:14 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:49:14 -Root WebApplicationContext: initialization completed in 2173 ms
+2023-12-06 19:49:15 -Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+2023-12-06 19:49:15 -Stopping service [Tomcat]
+2023-12-06 19:49:15 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-06 19:49:15 -Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitConnectionFactoryBeanConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/amqp/RabbitAutoConfiguration$RabbitConnectionFactoryCreator.class]: Unexpected exception during bean creation; nested exception is java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at edu.nuc.hcj.im.service.ServiceApplication.main(ServiceApplication.java:10)
+Caused by: java.lang.TypeNotPresentException: Type com.rabbitmq.client.impl.CredentialsRefreshService not present
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at sun.reflect.generics.repository.ConstructorRepository.getParameterTypes(ConstructorRepository.java:94)
+	at java.lang.reflect.Executable.getGenericParameterTypes(Executable.java:283)
+	at java.lang.reflect.Method.getGenericParameterTypes(Method.java:283)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:513)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:291)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:107)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1420)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1341)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1323)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1290)
+	at org.springframework.beans.factory.config.DependencyDescriptor.getResolvableType(DependencyDescriptor.java:314)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.checkGenericTypeMatch(GenericTypeAwareAutowireCandidateResolver.java:77)
+	at org.springframework.beans.factory.support.GenericTypeAwareAutowireCandidateResolver.isAutowireCandidate(GenericTypeAwareAutowireCandidateResolver.java:69)
+	at org.springframework.beans.factory.annotation.QualifierAnnotationAutowireCandidateResolver.isAutowireCandidate(QualifierAnnotationAutowireCandidateResolver.java:146)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:864)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:823)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.isAutowireCandidate(DefaultListableBeanFactory.java:806)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1572)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1354)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 14 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.rabbitmq.client.impl.CredentialsRefreshService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 46 common frames omitted
+2023-12-06 19:52:09 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:52:09 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 38020 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:52:09 -The following 1 profile is active: "dev"
+2023-12-06 19:52:09 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:52:09 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:52:09 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:52:10 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:52:10 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:52:10 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:52:10 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:52:10 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:52:11 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:52:11 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:52:11 -Starting service [Tomcat]
+2023-12-06 19:52:11 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:52:11 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:52:11 -Root WebApplicationContext: initialization completed in 2113 ms
+2023-12-06 19:52:12 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:52:12 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 19:52:12 -Started ServiceApplication in 3.86 seconds (JVM running for 4.969)
+2023-12-06 19:53:31 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-06 19:53:31 -Initializing Servlet 'dispatcherServlet'
+2023-12-06 19:53:31 -Completed initialization in 1 ms
+2023-12-06 19:53:56 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 19:53:56 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 39560 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 19:53:56 -The following 1 profile is active: "dev"
+2023-12-06 19:53:57 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 19:53:57 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 19:53:57 -Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-12-06 19:53:57 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 19:53:57 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 19:53:57 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 19:53:57 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 19:53:57 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 19:53:58 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 19:53:58 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:53:58 -Starting service [Tomcat]
+2023-12-06 19:53:58 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 19:53:58 -Initializing Spring embedded WebApplicationContext
+2023-12-06 19:53:58 -Root WebApplicationContext: initialization completed in 2035 ms
+2023-12-06 19:53:59 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 19:53:59 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 19:53:59 -Started ServiceApplication in 3.819 seconds (JVM running for 4.805)
+2023-12-06 19:54:03 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-06 19:54:03 -Initializing Servlet 'dispatcherServlet'
+2023-12-06 19:54:03 -Completed initialization in 1 ms
+2023-12-06 20:05:44 -HikariPool-1 - Starting...
+2023-12-06 20:05:44 -HikariPool-1 - Start completed.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a6826f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54408a11 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42eb7707 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@474f7149 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7621b0fb (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2661bc2c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3fabb4a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3524f2d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5324c225 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:11:16 -HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3148321d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2023-12-06 20:50:47 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 20:50:47 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 40172 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 20:50:47 -The following 1 profile is active: "dev"
+2023-12-06 20:50:48 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 20:50:48 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 20:50:48 -Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2023-12-06 20:50:48 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 20:50:48 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 20:50:48 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 20:50:48 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 20:50:48 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 20:50:49 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 20:50:49 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 20:50:49 -Starting service [Tomcat]
+2023-12-06 20:50:49 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 20:50:49 -Initializing Spring embedded WebApplicationContext
+2023-12-06 20:50:49 -Root WebApplicationContext: initialization completed in 2483 ms
+2023-12-06 20:50:51 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 20:50:51 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 20:50:51 -Started ServiceApplication in 4.744 seconds (JVM running for 6.005)
+2023-12-06 20:57:45 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 28068 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 20:57:45 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 20:57:45 -The following 1 profile is active: "dev"
+2023-12-06 20:57:45 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 20:57:45 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 20:57:45 -Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-12-06 20:57:46 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 20:57:46 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 20:57:46 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 20:57:46 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 20:57:46 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 20:57:47 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 20:57:47 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 20:57:47 -Starting service [Tomcat]
+2023-12-06 20:57:47 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 20:57:47 -Initializing Spring embedded WebApplicationContext
+2023-12-06 20:57:47 -Root WebApplicationContext: initialization completed in 2118 ms
+2023-12-06 20:57:48 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 20:57:48 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 20:57:48 -Started ServiceApplication in 3.843 seconds (JVM running for 4.779)
+2023-12-06 21:00:58 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-06 21:00:58 -Initializing Servlet 'dispatcherServlet'
+2023-12-06 21:00:58 -Completed initialization in 1 ms
+2023-12-06 21:08:07 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 21:08:07 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 40340 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 21:08:07 -The following 1 profile is active: "dev"
+2023-12-06 21:08:08 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 21:08:08 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 21:08:08 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-06 21:08:08 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 21:08:08 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 21:08:08 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 21:08:08 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 21:08:08 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 21:08:09 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 21:08:09 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 21:08:09 -Starting service [Tomcat]
+2023-12-06 21:08:09 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 21:08:09 -Initializing Spring embedded WebApplicationContext
+2023-12-06 21:08:09 -Root WebApplicationContext: initialization completed in 2092 ms
+2023-12-06 21:08:11 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 21:08:11 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 21:08:11 -Started ServiceApplication in 3.904 seconds (JVM running for 5.21)
+2023-12-06 21:08:30 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-06 21:08:30 -Initializing Servlet 'dispatcherServlet'
+2023-12-06 21:08:30 -Completed initialization in 1 ms
+2023-12-06 21:10:06 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 42736 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 21:10:06 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 21:10:06 -The following 1 profile is active: "dev"
+2023-12-06 21:10:07 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 21:10:07 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 21:10:07 -Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-06 21:10:07 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 21:10:07 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 21:10:07 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 21:10:07 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 21:10:07 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 21:10:08 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 21:10:08 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 21:10:08 -Starting service [Tomcat]
+2023-12-06 21:10:08 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 21:10:08 -Initializing Spring embedded WebApplicationContext
+2023-12-06 21:10:08 -Root WebApplicationContext: initialization completed in 2066 ms
+2023-12-06 21:10:10 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 21:10:10 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 21:10:10 -Started ServiceApplication in 3.86 seconds (JVM running for 4.801)
+2023-12-06 21:10:15 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-06 21:10:15 -Initializing Servlet 'dispatcherServlet'
+2023-12-06 21:10:15 -Completed initialization in 1 ms
+2023-12-06 21:14:24 -HV000001: Hibernate Validator 6.2.5.Final
+2023-12-06 21:14:24 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 39584 (D:\Idea\InstantMessagingSystem\IM-system\service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2023-12-06 21:14:24 -The following 1 profile is active: "dev"
+2023-12-06 21:14:24 -Multiple Spring Data modules found, entering strict repository configuration mode
+2023-12-06 21:14:24 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-06 21:14:24 -Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2023-12-06 21:14:25 -Tomcat initialized with port(s): 8000 (http)
+2023-12-06 21:14:25 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2023-12-06 21:14:25 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2023-12-06 21:14:25 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2023-12-06 21:14:25 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-06 21:14:26 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2023-12-06 21:14:26 -Initializing ProtocolHandler ["http-nio-8000"]
+2023-12-06 21:14:26 -Starting service [Tomcat]
+2023-12-06 21:14:26 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-12-06 21:14:26 -Initializing Spring embedded WebApplicationContext
+2023-12-06 21:14:26 -Root WebApplicationContext: initialization completed in 2232 ms
+2023-12-06 21:14:28 -Starting ProtocolHandler ["http-nio-8000"]
+2023-12-06 21:14:28 -Tomcat started on port(s): 8000 (http) with context path ''
+2023-12-06 21:14:28 -Started ServiceApplication in 4.167 seconds (JVM running for 5.606)
+2023-12-06 21:14:38 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-06 21:14:38 -Initializing Servlet 'dispatcherServlet'
+2023-12-06 21:14:38 -Completed initialization in 1 ms
+2023-12-06 21:15:21 -HikariPool-1 - Starting...
+2023-12-06 21:15:21 -HikariPool-1 - Start completed.
+2023-12-06 21:16:33 -HikariPool-1 - Shutdown initiated...
+2023-12-06 21:16:33 -HikariPool-1 - Shutdown completed.

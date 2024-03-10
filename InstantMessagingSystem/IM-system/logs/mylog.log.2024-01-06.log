@@ -1,0 +1,404 @@
+2024-01-06 16:14:49 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:14:49 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 22800 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:14:49 -The following 1 profile is active: "dev"
+2024-01-06 16:14:50 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:14:50 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:14:50 -Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:14:51 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:14:51 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:14:51 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:14:51 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:14:51 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:14:52 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:14:52 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:14:52 -Starting service [Tomcat]
+2024-01-06 16:14:52 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:14:52 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:14:52 -Root WebApplicationContext: initialization completed in 2381 ms
+2024-01-06 16:14:55 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:14:55 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:14:55 -Started ServiceApplication in 6.134 seconds (JVM running for 7.486)
+2024-01-06 16:18:06 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:18:06 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:18:06 -Completed initialization in 2 ms
+2024-01-06 16:20:28 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:20:28 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 23940 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:20:28 -The following 1 profile is active: "dev"
+2024-01-06 16:20:28 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:20:28 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:20:28 -Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:20:29 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:20:29 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:20:29 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:20:29 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:20:29 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:20:30 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:20:30 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:20:30 -Starting service [Tomcat]
+2024-01-06 16:20:30 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:20:30 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:20:30 -Root WebApplicationContext: initialization completed in 2311 ms
+2024-01-06 16:20:33 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:20:33 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:20:33 -Started ServiceApplication in 5.978 seconds (JVM running for 7.533)
+2024-01-06 16:20:39 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:20:39 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:20:39 -Completed initialization in 2 ms
+2024-01-06 16:23:39 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:23:39 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 8220 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:23:39 -The following 1 profile is active: "dev"
+2024-01-06 16:23:40 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:23:40 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:23:40 -Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:23:41 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:23:41 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:23:41 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:23:41 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:23:41 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:23:42 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:23:42 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:23:42 -Starting service [Tomcat]
+2024-01-06 16:23:42 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:23:42 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:23:42 -Root WebApplicationContext: initialization completed in 2558 ms
+2024-01-06 16:23:46 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:23:46 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:23:46 -Started ServiceApplication in 6.829 seconds (JVM running for 8.088)
+2024-01-06 16:23:52 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:23:52 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:23:52 -Completed initialization in 3 ms
+2024-01-06 16:25:09 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:25:09 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 10120 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:25:09 -The following 1 profile is active: "dev"
+2024-01-06 16:25:10 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:25:10 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:25:10 -Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:25:11 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:25:11 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:25:11 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:25:11 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:25:11 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:25:12 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:25:12 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:25:12 -Starting service [Tomcat]
+2024-01-06 16:25:12 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:25:12 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:25:12 -Root WebApplicationContext: initialization completed in 2397 ms
+2024-01-06 16:25:15 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:25:15 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:25:15 -Started ServiceApplication in 6.265 seconds (JVM running for 7.461)
+2024-01-06 16:25:18 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:25:18 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:25:18 -Completed initialization in 2 ms
+2024-01-06 16:25:32 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:25:32 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 3348 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:25:32 -The following 1 profile is active: "dev"
+2024-01-06 16:25:33 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:25:33 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:25:33 -Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:25:34 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:25:34 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:25:34 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:25:34 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:25:34 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:25:35 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:25:35 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:25:35 -Starting service [Tomcat]
+2024-01-06 16:25:35 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:25:35 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:25:35 -Root WebApplicationContext: initialization completed in 3144 ms
+2024-01-06 16:25:39 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:25:39 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:25:39 -Started ServiceApplication in 7.932 seconds (JVM running for 10.522)
+2024-01-06 16:25:44 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:25:44 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:25:44 -Completed initialization in 1 ms
+2024-01-06 16:26:40 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:26:40 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 18636 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:26:40 -The following 1 profile is active: "dev"
+2024-01-06 16:26:41 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:26:41 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:26:41 -Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:26:41 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:26:41 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:26:41 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:26:41 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:26:41 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:26:42 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:26:42 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:26:42 -Starting service [Tomcat]
+2024-01-06 16:26:42 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:26:43 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:26:43 -Root WebApplicationContext: initialization completed in 2545 ms
+2024-01-06 16:26:46 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:26:46 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:26:46 -Started ServiceApplication in 6.667 seconds (JVM running for 8.371)
+2024-01-06 16:26:52 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:26:52 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:26:52 -Completed initialization in 0 ms
+2024-01-06 16:47:26 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:47:26 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24428 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:47:26 -The following 1 profile is active: "dev"
+2024-01-06 16:47:27 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:47:27 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:47:27 -Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:47:27 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:47:27 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:47:27 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:47:27 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:47:27 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:47:28 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:47:28 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:47:28 -Starting service [Tomcat]
+2024-01-06 16:47:28 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:47:28 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:47:28 -Root WebApplicationContext: initialization completed in 2310 ms
+2024-01-06 16:47:31 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:47:31 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:47:31 -Started ServiceApplication in 5.845 seconds (JVM running for 7.054)
+2024-01-06 16:47:37 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:47:37 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:47:37 -Completed initialization in 1 ms
+2024-01-06 16:47:55 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:47:55 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24036 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:47:55 -The following 1 profile is active: "dev"
+2024-01-06 16:47:56 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:47:56 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:47:56 -Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:47:57 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:47:57 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:47:57 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:47:57 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:47:57 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:47:58 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:47:58 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:47:58 -Starting service [Tomcat]
+2024-01-06 16:47:58 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:47:58 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:47:58 -Root WebApplicationContext: initialization completed in 2933 ms
+2024-01-06 16:48:02 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:48:02 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:48:02 -Started ServiceApplication in 7.699 seconds (JVM running for 9.555)
+2024-01-06 16:48:11 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:48:11 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:48:11 -Completed initialization in 1 ms
+2024-01-06 16:51:15 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 16:51:15 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24176 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 16:51:15 -The following 1 profile is active: "dev"
+2024-01-06 16:51:16 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 16:51:16 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 16:51:16 -Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-01-06 16:51:17 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 16:51:17 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 16:51:17 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 16:51:17 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 16:51:17 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 16:51:18 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 16:51:18 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:51:18 -Starting service [Tomcat]
+2024-01-06 16:51:18 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 16:51:18 -Initializing Spring embedded WebApplicationContext
+2024-01-06 16:51:18 -Root WebApplicationContext: initialization completed in 2652 ms
+2024-01-06 16:51:21 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 16:51:21 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 16:51:21 -Started ServiceApplication in 6.711 seconds (JVM running for 8.318)
+2024-01-06 16:51:25 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-06 16:51:25 -Initializing Servlet 'dispatcherServlet'
+2024-01-06 16:51:25 -Completed initialization in 1 ms
+2024-01-06 17:32:27 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 17:32:27 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 24620 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 17:32:27 -The following 1 profile is active: "dev"
+2024-01-06 17:32:28 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 17:32:28 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 17:32:28 -Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-01-06 17:32:28 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 17:32:28 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 17:32:28 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 17:32:28 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 17:32:28 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 17:32:29 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 17:32:29 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 17:32:29 -Starting service [Tomcat]
+2024-01-06 17:32:29 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 17:32:30 -Initializing Spring embedded WebApplicationContext
+2024-01-06 17:32:30 -Root WebApplicationContext: initialization completed in 2624 ms
+2024-01-06 17:32:32 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 17:32:32 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 17:32:32 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 17:32:32 -Created new connection: rabbitConnectionFactory#7df28f1:0/SimpleConnection@6806468e [delegate=amqp://admin@192.168.70.138:5672/, localPort= 14549]
+2024-01-06 17:32:32 -Started ServiceApplication in 5.908 seconds (JVM running for 7.113)
+2024-01-06 17:37:48 -CHAT MSG FORM QUEUE ::: {"clientType":4,"appId":10000,"userId":"lld","command":19999}
+2024-01-06 20:55:37 -HV000001: Hibernate Validator 6.2.5.Final
+2024-01-06 20:55:37 -Starting ServiceApplication using Java 1.8.0_291 on hcj with PID 17548 (D:\Idea\InstantMessagingSystem\IM-system\im-service\target\classes started by hcj in D:\Idea\InstantMessagingSystem\IM-system)
+2024-01-06 20:55:37 -The following 1 profile is active: "dev"
+2024-01-06 20:55:38 -Multiple Spring Data modules found, entering strict repository configuration mode
+2024-01-06 20:55:38 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-01-06 20:55:38 -Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2024-01-06 20:55:39 -Tomcat initialized with port(s): 8000 (http)
+2024-01-06 20:55:39 -An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2024-01-06 20:55:39 -Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2024-01-06 20:55:39 -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2024-01-06 20:55:39 -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2024-01-06 20:55:40 -OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2024-01-06 20:55:40 -Initializing ProtocolHandler ["http-nio-8000"]
+2024-01-06 20:55:40 -Starting service [Tomcat]
+2024-01-06 20:55:40 -Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-06 20:55:40 -Initializing Spring embedded WebApplicationContext
+2024-01-06 20:55:40 -Root WebApplicationContext: initialization completed in 3215 ms
+2024-01-06 20:55:45 -Starting ProtocolHandler ["http-nio-8000"]
+2024-01-06 20:55:46 -Tomcat started on port(s): 8000 (http) with context path ''
+2024-01-06 20:55:46 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 20:55:46 -Created new connection: rabbitConnectionFactory#44114b9f:0/SimpleConnection@7ec08115 [delegate=amqp://admin@192.168.70.138:5672/, localPort= 7470]
+2024-01-06 20:55:46 -CHAT MSG FORM QUEUE ::: {"clientType":4,"appId":10000,"userId":"lld","command":19999}
+2024-01-06 20:55:46 -Started ServiceApplication in 10.102 seconds (JVM running for 11.371)
+2024-01-06 21:01:00 -An unexpected connection driver error occurred (Exception message: Connection reset)
+2024-01-06 21:01:00 -Restarting Consumer@5d194314: tags=[[amq.ctag-0R1_Uz_rIDJhNVm5xadFAQ]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://admin@192.168.70.138:5672/,1), conn: Proxy@73f6e07 Shared Rabbit Connection: SimpleConnection@7ec08115 [delegate=amqp://admin@192.168.70.138:5672/, localPort= 7470], acknowledgeMode=MANUAL local queue size=0
+2024-01-06 21:01:00 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:01:02 -Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:676)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:650)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:540)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.access$1600(CachingConnectionFactory.java:100)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1418)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2186)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2153)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2133)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:463)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:447)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1930)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1911)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1377)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1223)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1223)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 16 common frames omitted
+2024-01-06 21:01:02 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:01:10 -Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2024-01-06 21:01:10 -Restarting Consumer@761c4689: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2024-01-06 21:01:10 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:01:12 -Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2180)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2153)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2133)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:463)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:447)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1930)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1911)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1377)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1223)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1223)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 12 common frames omitted
+2024-01-06 21:01:12 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:01:19 -Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2024-01-06 21:01:19 -Restarting Consumer@383530be: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2024-01-06 21:01:19 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:01:40 -Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2180)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2153)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2133)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:463)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:447)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1930)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1911)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1377)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1223)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1223)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 12 common frames omitted
+2024-01-06 21:01:40 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:02:06 -Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2024-01-06 21:02:06 -Restarting Consumer@190f5bb7: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2024-01-06 21:02:06 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:02:27 -Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:602)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:725)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:252)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2180)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2153)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2133)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:463)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:447)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1930)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1911)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1377)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1223)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1223)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:640)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:615)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:565)
+	... 12 common frames omitted
+2024-01-06 21:02:27 -Attempting to connect to: [192.168.70.138:5672]
+2024-01-06 21:02:53 -Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+2024-01-06 21:02:53 -Restarting Consumer@4486c84e: tags=[[]], channel=null, acknowledgeMode=MANUAL local queue size=0
+2024-01-06 21:02:53 -Attempting to connect to: [192.168.70.138:5672]
